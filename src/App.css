@@ -1,0 +1,205 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: "ploni-yad-regular-aaa";
+  font-style: normal;
+  font-weight: normal;
+  src: url(font/ploni-yad-regular-aaa.otf) format("openType");
+}
+
+* {
+  font-family: "ploni-yad-regular-aaa";
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: black;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  direction: rtl;
+  text-decoration: none;
+}
+
+.header {
+  background-color: black;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  direction: rtl;
+}
+.header-bottom{
+  border-bottom: 8px solid #ff9933;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.background-img {
+  background-size: auto;
+  background-position: center;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  background-image: url('../pictures/home.jpg');
+}
+
+.login {
+  background-image: url('../pictures/log.jpg');
+}
+
+.buy {
+  height: 100vh;
+  background-image: url('../pictures/buy.jpg');
+}
+
+.App-header a {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+}
+
+.App-header a:focus {
+  color: #ff9933;
+}
+
+.card {
+  border: 2px solid black;
+  height: 340px;
+  width: 300px;
+  margin: 20px;
+}
+
+.recipes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  direction: rtl;
+  font-family: "ploni-yad-regular-aaa";
+}
+
+.my-button {
+  padding: 5px 5px;
+  font-size: 16px;
+  background-color: none;
+  color: #ff9933;
+  border: none;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #ff9933;
+  color: #fff;
+  border: 1px solid #ff9933;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  direction: rtl;
+}
+
+.cardDetailes {
+  border: 2px solid black;
+  margin: 20px;
+  padding: auto;
+  width: 500px;
+}
+
+.myRecipe {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url('../pictures/buy.jpg');
+}
+
+.line {
+  border-bottom: 5.5px solid #ff9933;
+}
+
+.soppingList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cont1 {
+  margin-top: 40px;
+}
+
+.cont2 {
+  padding:0 30px;
+}
+
+.categories {
+  direction: rtl;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+a {
+  color: black;
+}
+.my-img{
+  background-image: url('../pictures/logowhite.png');  
+  background-size:100%; 
+  background-position: center;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  height: 55px;
+  width: 75px;
+  margin:  0 25px;
+}
+.som{
+  display: flex;
+  align-items: center;
+}
