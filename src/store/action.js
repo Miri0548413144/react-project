@@ -1,0 +1,12 @@
+
+export const SET_USER="SET_USER";
+export const SET_RECIPE="SET_RECIPE";
+export const GET_CATEGORIES="GET_CATEGORIES";
+export const ADD_CATEGORY="ADD_CATEGORY";
+export const GET_RECIPES="GET_RECIPES";
+export const DELETE_RECIPE="DELETE_RECIPE";
+export const DELETE_PRODUCT="DELETE_PRODUCT";
+export const ADD_RECIPE="ADD_RECIPE";
+export const EDIT_RECIPE="EDIT_RECIPE";
+export const EDIT_TO_SHOPPING="EDIT_TO_SHOPPING";
+export const GET_TO_SHOPPING="GET_TO_SHOPPING";
